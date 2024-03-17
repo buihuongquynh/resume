@@ -1,0 +1,52 @@
+.profile {
+  margin-top: 88px;
+}
+
+.avatar {
+  border-radius: 16px;
+}
+
+.title {
+  margin-bottom: 12px;
+  letter-spacing: -0.63px;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 120%;
+  padding: 24px 24px 32px;
+}
+
+.description {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #77777d;
+}
+
+.location {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 40px;
+  color: #77777d;
+}
+
+.header {
+  border-bottom: 1px solid #ededee;
+  text-align: center;
+  padding: 20px 24px;
+}
+
+.worker {
+  background-color: white;
+  color: #77777d;
+}
+
+.workers {
+  padding: 32px 24px;
+}
+
+.workerImage {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.workerImage:hover {
+  opacity: 1;
+}

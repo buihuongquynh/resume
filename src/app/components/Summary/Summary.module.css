@@ -1,0 +1,90 @@
+.summary {
+  text-align: center;
+}
+
+.available {
+  display: inline-block;
+  border: 1px solid #ededee;
+  background-color: white;
+  border-radius: 8px;
+  padding: 6px 10px 6px 12px;
+  margin: 80px 0 8px 0;
+}
+
+.status {
+  display: inline-block;
+  margin-right: 5px;
+  width: 8px;
+  height: 8px;
+  background-color: #31b86e;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  -webkit-animation: my 700ms infinite;
+  -moz-animation: my 700ms infinite;
+  -o-animation: my 700ms infinite;
+  animation: my 700ms infinite;
+}
+
+@-webkit-keyframes my {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    color: 1;
+  }
+}
+@-moz-keyframes my {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+    will-change: opacity;
+  }
+  100% {
+    color: 1;
+  }
+}
+@-o-keyframes my {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    color: 1;
+  }
+}
+@keyframes my {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    color: 1;
+  }
+}
+
+.name {
+  letter-spacing: -1.44px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.job {
+  letter-spacing: -0.36px;
+  font-size: 18px;
+  line-height: 140%;
+  color: rgb(119, 119, 125);
+  margin-top: 16px;
+}

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.box {
+  border: 1px solid #ededee;
+  border-radius: 16px;
+  padding: 6px;
+  background-color: white;
+  box-shadow: 0 6px 12px rgba(29, 29, 38, 0.04);
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
