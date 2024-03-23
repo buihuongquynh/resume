@@ -2,6 +2,10 @@
   margin-top: 88px;
 }
 
+.wrapper {
+  padding: 32px 24px;
+}
+
 .avatar {
   border-radius: 16px;
 }
@@ -22,8 +26,6 @@
 }
 
 .location {
-  padding-left: 24px;
-  padding-right: 24px;
   padding-top: 40px;
   color: #77777d;
 }
@@ -49,4 +51,9 @@
 }
 .workerImage:hover {
   opacity: 1;
+}
+
+.flex {
+  display: flex;
+  gap: 12px;
 }

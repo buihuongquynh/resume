@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 import { Header } from "./components/Header";
 import { Summary } from "./components/Summary";
 import { Profile } from "./components/Profile";
+import { WorkExperience } from "./components/WorkExperience";
+import { Education } from "./components/Education";
 
 const Home = () => (
   <>
@@ -10,6 +12,8 @@ const Home = () => (
       <Header />
       <Summary />
       <Profile />
+      <WorkExperience />
+      <Education />
     </div>
   </>
 );
