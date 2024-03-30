@@ -1,0 +1,13 @@
+.language {
+  padding: 32px 0;
+  border-bottom: 1px solid #ededee;
+}
+.title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.level {
+  font-size: 12px;
+  margin-top: 6px;
+}
