@@ -5,6 +5,7 @@ import { Summary } from "./components/Summary";
 import { Profile } from "./components/Profile";
 import { WorkExperience } from "./components/WorkExperience";
 import { Education } from "./components/Education";
+import { Skills } from "./components/Skills";
 
 const Home = () => (
   <>
@@ -14,6 +15,7 @@ const Home = () => (
       <Profile />
       <WorkExperience />
       <Education />
+      <Skills />
     </div>
   </>
 );
