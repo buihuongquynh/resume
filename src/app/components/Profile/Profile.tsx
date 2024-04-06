@@ -5,11 +5,15 @@ import avatar from "./assets/avatar.webp";
 import { EnvironmentOutlined } from "@ant-design/icons";
 import { Title } from "../Title";
 import profileIcon from "./assets/profile.svg";
+import sunImg from "./assets/work/sun.png";
+import hirogoImg from "./assets/work/hirogo.svg";
+import corizeImg from "./assets/work/corize.png";
+import Link from "next/link";
 
 export const Profile = () => (
   <div className={styles.profile}>
     <div className={`mb-10 ${styles.flex}`}>
-      <div>
+      {/* <div>
         <Image
           preview={false}
           alt="avatar"
@@ -18,18 +22,19 @@ export const Profile = () => (
           height={379}
           className={styles.avatar}
         />
-      </div>
+      </div> */}
       <div className={`box ${styles.wrapper}`}>
         <Title
           iconUrl={profileIcon.src}
           title="Professional Profile"
-          description="Accomplished Senior Data Scientist & Business Consultant with a proven
-        track record of leveraging advanced analytics to drive strategic
-        decision-making and optimize business processes."
+          description="I have over 2 years of experience with ReactJS and more than 2 years working in front-end development.
+           I'm adept at various JavaScript frameworks for front-end, back-end, and mobile.
+            I excel under pressure and am dedicated to continuous learning.
+          "
         />
         <Flex className={styles.location} align="center" gap={5}>
           <EnvironmentOutlined />
-          <p>Based in Phoenix, Arizona, USA.</p>
+          <div>Da Nang, Viet Nam</div>
         </Flex>
       </div>
     </div>
@@ -37,21 +42,15 @@ export const Profile = () => (
       <div className="box">
         <div className={styles.header}>Worked With</div>
         <Flex className={styles.workers} align="center" justify="space-between">
-          <Image
-            className={styles.workerImage}
-            preview={false}
-            src="https://assets-global.website-files.com/65c4b78e2f4b9d4b1696ade5/65c4e2353c29fa84e6914a94_Logo.svg"
-          />
-          <Image
-            className={styles.workerImage}
-            preview={false}
-            src="https://assets-global.website-files.com/65c4b78e2f4b9d4b1696ade5/65c4e2355bc16e860fc7c04b_Logo-1.svg"
-          />
-          <Image
-            className={styles.workerImage}
-            preview={false}
-            src="https://assets-global.website-files.com/65c4b78e2f4b9d4b1696ade5/65c4e235057c4d3cc98103bd_Logo-2.svg"
-          />
+          <Link href="https://sun-asterisk.vn/">
+            <img className={styles.workerImage} src={sunImg.src} />
+          </Link>
+          <Link href="https://hirogo.net/">
+            <img className={styles.workerImage} src={hirogoImg.src} />
+          </Link>
+          <Link href="https://corize.co.jp/">
+            <img className={styles.workerImage} src={corizeImg.src} />
+          </Link>
         </Flex>
       </div>
     </div>

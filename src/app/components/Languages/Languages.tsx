@@ -9,21 +9,13 @@ import jaIcon from "./assets/ja.svg";
 export const Languages = () => (
   <div className={`box ${styles.wrapper}`}>
     <div className={styles.container}>
-      <Title
-        iconUrl={languageIcon.src}
-        title="Languages"
-        description="Proficient in multiple languages, facilitating effective communication and collaboration in diverse settings."
-      />
+      <Title iconUrl={languageIcon.src} title="Languages" />
       <Language
         iconUrl={enIcon.src}
         title="English"
-        level="Native or bilingual proficiency"
+        level="Good reading comprehension and basic communication"
       />
-      <Language
-        iconUrl={jaIcon.src}
-        title="Japanese"
-        level="Elementary proficiency"
-      />
+      <Language iconUrl={jaIcon.src} title="Japanese" level="JLPT N3" />
     </div>
   </div>
 );

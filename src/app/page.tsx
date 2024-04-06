@@ -8,6 +8,7 @@ import { Education } from "./components/Education";
 import { Skills } from "./components/Skills";
 import { Languages } from "./components/Languages";
 import { Honors } from "./components/Honors";
+import { Project } from "./components/Projects";
 
 const Home = () => (
   <>
@@ -16,10 +17,11 @@ const Home = () => (
       <Summary />
       <Profile />
       <WorkExperience />
+      <Project />
       <Education />
       <Skills />
       <Languages />
-      <Honors />
+      {/* <Honors /> */}
     </div>
   </>
 );

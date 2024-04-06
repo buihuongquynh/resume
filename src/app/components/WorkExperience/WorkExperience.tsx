@@ -8,60 +8,61 @@ import workIcon from "./assets/work.svg";
 export const WorkExperience = () => (
   <div className={`box ${styles.wrapper}`}>
     <div className={styles.container}>
-      <Title
-        iconUrl={workIcon.src}
-        title="Work Experience"
-        description="Proven track record in data science and business consulting,
-        delivering impactful insights and results across industries."
-      />
+      <Title iconUrl={workIcon.src} title="Work Experience" />
+
       <Timeline
         className={styles.timeline}
         items={[
           {
             children: (
               <WorkTime
-                title="Data Scientist & Business Consultant"
-                key="TechNova
-            Full-Time"
-                location="Phoenix, Arizona, USA"
-                description="Demonstrating a seamless integration of data science acumen and business consulting proficiency, effectively driving transformative initiatives and delivering strategic insights to optimize organizational performance and facilitate informed decision-making."
-                time="Jun 2021 - Present"
+                title="Sun* Inc full stack web developer"
+                key="Full-Time"
+                location="Remote"
+                description=" <ul>
+                <li>Create project specs and UI designs</li>
+                <li>Implement database design and APIs</li>
+                <li>Utilize Next.js for server-side rendering</li>
+                <li>Ensure secure development with CI tools</li>
+                <li>Conduct tests using Cypress.</li>
+              </ul>"
+                time="7/2021- 2/2022"
               />
             ),
           },
           {
             children: (
               <WorkTime
-                title="Data Scientist & Business Consultant"
-                key="TechNova
-        Full-Time"
-                location="Phoenix, Arizona, USA"
-                description="Demonstrating a seamless integration of data science acumen and business consulting proficiency, effectively driving transformative initiatives and delivering strategic insights to optimize organizational performance and facilitate informed decision-making."
-                time="Jun 2021 - Present"
+                title=" Hirogo full stack developer"
+                key="
+        Part-Time"
+                location="Da Nang, Viet Nam"
+                description=" <ul>
+                <li>Developing websites using WordPress</li>
+                <li>Developing websites using PHP</li>
+                <li>Developing websites using Vue.js</li>
+                <li>Make UI with pure html css js</li>
+              </ul>"
+                time="3/2022- 8/2022"
               />
             ),
           },
           {
             children: (
               <WorkTime
-                title="Data Scientist & Business Consultant"
+                title="Corize Inc font end developer"
                 key="TechNova
         Full-Time"
-                location="Phoenix, Arizona, USA"
-                description="Demonstrating a seamless integration of data science acumen and business consulting proficiency, effectively driving transformative initiatives and delivering strategic insights to optimize organizational performance and facilitate informed decision-making."
-                time="Jun 2021 - Present"
-              />
-            ),
-          },
-          {
-            children: (
-              <WorkTime
-                title="Data Scientist & Business Consultant"
-                key="TechNova
-        Full-Time"
-                location="Phoenix, Arizona, USA"
-                description="Demonstrating a seamless integration of data science acumen and business consulting proficiency, effectively driving transformative initiatives and delivering strategic insights to optimize organizational performance and facilitate informed decision-making."
-                time="Jun 2021 - Present"
+                location="Da Nang, Viet Nam"
+                description="<ul>
+                <li>Create project specs and UI designs</li>
+                <li>Implement database design and APIs</li>
+                <li>Utilize Next.js for server-side rendering</li>
+                <li>Ensure secure development with CI tools</li>
+                <li>Conduct tests using Cypress.</li>
+              </ul>"
+                time="9/2022- Present
+                "
               />
             ),
           },

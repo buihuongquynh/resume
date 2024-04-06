@@ -8,7 +8,7 @@
   background-color: white;
   border-radius: 8px;
   padding: 6px 10px 6px 12px;
-  margin: 80px 0 8px 0;
+  margin: 50px 0 8px 0;
 }
 
 .name {
@@ -26,4 +26,8 @@
   line-height: 140%;
   color: rgb(119, 119, 125);
   margin-top: 16px;
+}
+
+.content {
+  text-align: left;
 }

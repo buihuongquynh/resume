@@ -8,18 +8,15 @@ import educationIcon from "./assets/education.svg";
 export const Education = () => (
   <div className={`box ${styles.wrapper}`}>
     <div className={styles.container}>
-      <Title
-        iconUrl={educationIcon.src}
-        title="Education"
-        description=" Degrees and certifications in the specialized fields of data science
-          and business analytics."
-      />
+      <Title iconUrl={educationIcon.src} title="Education" />
       <div className={styles.education}>
         <Flex align="center" justify="space-between">
           <div>
-            <div className={styles.schoolNAme}>Princeton University</div>
+            <div className={styles.schoolNAme}>
+              The University of Danang - University of Science and Technology
+            </div>
             <div className={styles.specialized}>
-              Master’s degree Data Science
+              Major: Information Technology (Vietnam-Japan) undergraduate
             </div>
           </div>
           <Button
@@ -27,7 +24,7 @@ export const Education = () => (
             size="small"
             icon={<CalendarOutlined />}
           >
-            Sep 2015 - Dec 2016
+            2018 - 9/2023
           </Button>
         </Flex>
       </div>

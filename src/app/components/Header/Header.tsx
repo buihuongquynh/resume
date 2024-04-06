@@ -23,7 +23,12 @@ export const Header = () => (
         Skills
       </Button>
     </Flex>
-    <Button type="primary" icon={<PhoneOutlined />} size="large">
+    <Button
+      type="primary"
+      icon={<PhoneOutlined />}
+      href="mailto:buigiangquynh@gmail.com"
+      size="large"
+    >
       Contact me
     </Button>
   </Flex>

@@ -7,23 +7,20 @@ import { CheckOutlined } from "@ant-design/icons";
 
 const skillList = [
   {
-    title: "Data Science",
-    skills: [
-      "Data Analysis",
-      "Machine Learning",
-      "Statistical Modeling",
-      "Data Visualization",
-      "Big Data Analytics",
-    ],
+    title: "Front end",
+    skills: ["Html", "Css", "JavaScript", "ReactJS", "NextJs", "VueJS"],
   },
   {
-    title: "Business Consultation",
-    skills: [
-      "Strategic Planning",
-      "Business Analysis",
-      "Market Research",
-      "Financial Analysis",
-    ],
+    title: "Back end",
+    skills: ["NodeJs", "NestJS", "PHP", "Laravel"],
+  },
+  {
+    title: "Database",
+    skills: ["SQL", "Firebase", "MongoDB", "PostgreSQL"],
+  },
+  {
+    title: "Other",
+    skills: ["TypeScript", "Wordpress", "Shopify"],
   },
 ];
 

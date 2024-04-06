@@ -1,5 +1,5 @@
 .profile {
-  margin-top: 88px;
+  margin-top: 50px;
 }
 
 .wrapper {
@@ -46,11 +46,9 @@
 }
 
 .workerImage {
-  opacity: 0.6;
+  width: 108px;
+  height: 40px;
   cursor: pointer;
-}
-.workerImage:hover {
-  opacity: 1;
 }
 
 .flex {

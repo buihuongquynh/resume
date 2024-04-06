@@ -5,7 +5,7 @@ import styles from "./Title.module.css";
 type Props = {
   iconUrl: string;
   title: string;
-  description: string;
+  description?: string;
 };
 
 export const Title = ({ title, description, iconUrl }: Props) => (
