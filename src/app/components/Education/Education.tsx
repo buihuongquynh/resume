@@ -8,15 +8,15 @@ import educationIcon from "./assets/education.svg";
 export const Education = () => (
   <div className={`box ${styles.wrapper}`}>
     <div className={styles.container}>
-      <Title iconUrl={educationIcon.src} title="Education" />
+      <Title iconUrl={educationIcon.src} title="Trường học" />
       <div className={styles.education}>
         <Flex align="center" justify="space-between">
           <div>
             <div className={styles.schoolNAme}>
-              The University of Danang - University of Science and Technology
+              Đại học bách khoa Đà Nẵng (Đã tốt nghiệp)
             </div>
             <div className={styles.specialized}>
-              Major: Information Technology (Vietnam-Japan) undergraduate
+              Chuyên nghành: Công nghệ thông tin hợp tác Việt-Nhật
             </div>
           </div>
           <Button

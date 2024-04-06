@@ -19,7 +19,7 @@ const skillList = [
     skills: ["SQL", "Firebase", "MongoDB", "PostgreSQL"],
   },
   {
-    title: "Other",
+    title: "Khác",
     skills: ["TypeScript", "Wordpress", "Shopify"],
   },
 ];
@@ -27,11 +27,7 @@ const skillList = [
 export const Skills = () => (
   <div className={`box ${styles.wrapper}`}>
     <div className={styles.container}>
-      <Title
-        iconUrl={skillIcon.src}
-        title="Professional Skills"
-        description="Key competencies essential for navigating and excelling in various professional contexts."
-      />
+      <Title iconUrl={skillIcon.src} title="Kỹ năng" />
     </div>
     {skillList.map((skill, index) => (
       <div key={index} className={styles.skillList}>

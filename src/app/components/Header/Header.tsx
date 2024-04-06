@@ -8,19 +8,19 @@ export const Header = () => (
     <Avatar size={40}>U</Avatar>
     <Flex justify="center" align="center">
       <Button type="text" block>
-        Home
+        Trang chủ
       </Button>
 
       <Button type="text" block>
-        Profile
+        Hồ sơ
       </Button>
 
       <Button type="text" block>
-        Experience
+        Kinh nghiệm
       </Button>
 
       <Button type="text" block>
-        Skills
+        Kỹ năng
       </Button>
     </Flex>
     <Button
@@ -29,7 +29,7 @@ export const Header = () => (
       href="mailto:buigiangquynh@gmail.com"
       size="large"
     >
-      Contact me
+      Liên hệ với tôi
     </Button>
   </Flex>
 );

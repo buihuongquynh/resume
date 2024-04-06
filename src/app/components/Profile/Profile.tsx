@@ -27,20 +27,19 @@ export const Profile = () => (
         <Title
           iconUrl={profileIcon.src}
           title="Professional Profile"
-          description="I have over 2 years of experience with ReactJS and more than 2 years working in front-end development.
-           I'm adept at various JavaScript frameworks for front-end, back-end, and mobile.
-            I excel under pressure and am dedicated to continuous learning.
+          description="Tôi có hơn 2 năm kinh nghiệm với ReactJS và hơn 2 năm làm việc trong lĩnh vực phát triển front-end.
+           Thành thạo các Framework JavaScript khác nhau cho front-end, back-end và di động.
           "
         />
         <Flex className={styles.location} align="center" gap={5}>
           <EnvironmentOutlined />
-          <div>Da Nang, Viet Nam</div>
+          <div>Đà Nẵng, Việt Nam</div>
         </Flex>
       </div>
     </div>
     <div className={styles.worker}>
       <div className="box">
-        <div className={styles.header}>Worked With</div>
+        <div className={styles.header}>Làm việc với</div>
         <Flex className={styles.workers} align="center" justify="space-between">
           <Link href="https://sun-asterisk.vn/">
             <img className={styles.workerImage} src={sunImg.src} />

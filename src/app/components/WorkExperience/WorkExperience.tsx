@@ -8,7 +8,7 @@ import workIcon from "./assets/work.svg";
 export const WorkExperience = () => (
   <div className={`box ${styles.wrapper}`}>
     <div className={styles.container}>
-      <Title iconUrl={workIcon.src} title="Work Experience" />
+      <Title iconUrl={workIcon.src} title="Kinh nghiệm làm việc" />
 
       <Timeline
         className={styles.timeline}
@@ -20,11 +20,11 @@ export const WorkExperience = () => (
                 key="Full-Time"
                 location="Remote"
                 description=" <ul>
-                <li>Create project specs and UI designs</li>
-                <li>Implement database design and APIs</li>
-                <li>Utilize Next.js for server-side rendering</li>
-                <li>Ensure secure development with CI tools</li>
-                <li>Conduct tests using Cypress.</li>
+                <li>Tạo Spec dự án và thiết kế giao diện người dùng</li>
+                <li>Triển khai thiết database và API</li>
+                <li>Sử dụng Next.js để hiển thị phía máy chủ</li>
+                <li>Đảm bảo phát triển an toàn bằng các công cụ CI</li>
+                <li>Tiến hành kiểm tra bằng Cypress</li>
               </ul>"
                 time="7/2021- 2/2022"
               />
@@ -36,12 +36,12 @@ export const WorkExperience = () => (
                 title=" Hirogo full stack developer"
                 key="
         Part-Time"
-                location="Da Nang, Viet Nam"
+                location="Đà Nẵng, Việt Name"
                 description=" <ul>
-                <li>Developing websites using WordPress</li>
-                <li>Developing websites using PHP</li>
-                <li>Developing websites using Vue.js</li>
-                <li>Make UI with pure html css js</li>
+                <li>Phát triển trang web bằng WordPress</li>
+                <li>Phát triển trang web bằng PHP</li>
+                <li>Phát triển trang web bằng Vue.js</li>
+                <li>Tạo giao diện người dùng bằng html css js thuần túy</li>
               </ul>"
                 time="3/2022- 8/2022"
               />
@@ -50,18 +50,18 @@ export const WorkExperience = () => (
           {
             children: (
               <WorkTime
-                title="Corize Inc font end developer"
+                title="Corize Inc front end developer"
                 key="TechNova
         Full-Time"
-                location="Da Nang, Viet Nam"
+                location="Đà Nẵng, Việt Nam"
                 description="<ul>
-                <li>Create project specs and UI designs</li>
-                <li>Implement database design and APIs</li>
-                <li>Utilize Next.js for server-side rendering</li>
-                <li>Ensure secure development with CI tools</li>
-                <li>Conduct tests using Cypress.</li>
+                <li>Tạo thông số kỹ thuật của dự án và thiết kế giao diện người dùng</li>
+                <li>Triển khai thiết kế cơ sở dữ liệu và API</li>
+                <li>Sử dụng Next.js để hiển thị phía máy chủ</li>
+                <li>Đảm bảo phát triển an toàn bằng các công cụ CI</li>
+                <li>Tiến hành kiểm tra bằng Cypress.</li>
               </ul>"
-                time="9/2022- Present
+                time="9/2022- Hiện tại
                 "
               />
             ),
